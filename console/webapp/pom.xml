@@ -83,7 +83,7 @@
               <executable>java</executable>
               <arguments>
                 <argument>-jar</argument>
-                <argument>${env.ANDROID_HOME}/platform-tools/lib/dx.jar</argument>
+                <argument>${env.ANDROID_HOME}/build-tools/${android.buildTool.version}/lib/dx.jar</argument>
                 <!--<argument>-JXmx1024M</argument>-->
                 <argument>--dex</argument>
                 <argument>--verbose</argument>
