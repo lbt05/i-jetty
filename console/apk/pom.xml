@@ -73,7 +73,7 @@
           <extensions>true</extensions>
           <configuration>
               <sdk>
-                  <platform>4</platform>
+                  <platform>24</platform>
               </sdk>
               <deleteConflictingFiles>true</deleteConflictingFiles>
               <extractDuplicates>true</extractDuplicates> 
