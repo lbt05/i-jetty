@@ -6,7 +6,7 @@
   android:versionName="3.2-SNAPSHOT">
 
   <uses-sdk
-    android:minSdkVersion="4" />
+    android:minSdkVersion="4" android:targetSdkVersion="24" />
 
   <application
     android:icon="@drawable/ijetty_console"
