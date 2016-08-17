@@ -6,3 +6,6 @@ target
 *.log
 *.patch
 *.diff
+build
+.idea
+*.iml
