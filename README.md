@@ -32,6 +32,7 @@ The checkout will produce a directory structure like so:
  + i-jetty
     + i-jetty-server      : adaptation of Jetty to Android 
     + i-jetty-ui          : Android app bundle for Jetty
+    + i-jetty-gradle      : adaptation of Jetty to Android with gradle
 
  + console
     + webapp              : webapp for controlling phone remotely
@@ -61,6 +62,10 @@ Starting i-jetty
 Navigate to the "Manage Jetty" application and click on it to activate. Click
 on the "Start Jetty" button.
 
+```
+adb shell am broadcast -a  org.mortbay.ijetty.start -c default
+```
+
 Stopping i-jetty
 ----------------
 If you already have i-jetty running, you can click and drag down the i-jetty
@@ -68,6 +73,10 @@ icon in the navigation bar at the top of the screen to see the "Manage Jetty"
 task. Click on the task.
 
 Now click on the "Stop Jetty" button.
+
+```
+adb shell am broadcast -a  org.mortbay.ijetty.stop -c default
+```
 
 Configuring i-jetty
 -------------------
