@@ -44,7 +44,7 @@ The checkout will produce a directory structure like so:
 Building
 --------
 
-1) cd i-jetty-read-only/i-jetty 
+1) cd i-jetty/i-jetty 
 2) mvn clean install
 
 
